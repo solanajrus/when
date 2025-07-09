@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>when</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💰</text></svg>">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color: black;
+            color: white;
+            font-family: "Times New Roman", serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .message {
+            font-size: 3rem;
+            text-align: center;
+            overflow: hidden;
+            white-space: nowrap;
+            width: 0;
+            animation: typing 2s steps(15, end) forwards;
+            font-weight: bold;
+        }
+        
+        .subtitle {
+            font-size: 1.5rem;
+            text-align: center;
+            margin-top: 2rem;
+            opacity: 0;
+            animation: fadeIn 1s ease-in 2.5s forwards;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+        
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="message">when, not if...</div>
+        <div class="subtitle">stop limiting yourself.<br>you can only do what you tell yourself you can do.<br>so there are no more ifs.<br>only when.</div>
+    </div>
+</body>
+</html>
